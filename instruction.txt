@@ -1,0 +1,4 @@
+To get group id and organization id try this with Tesla
+
+client = Tesla.Client.new
+Tesla.get(client, "/groups")
